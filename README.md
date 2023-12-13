@@ -1,1 +1,1 @@
-One to many ERD
+MySQL ERD Practice
