@@ -15,3 +15,7 @@ INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Brahim","Sanka
 
 6- Create 3 ninjas that belong to the last dojo:
 INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Maza","Mohammed", 45, 6), ("Rassim","Techa", 35, 6), ("Mike","Leed", 33, 6);
+
+7- Retrieve all the ninjas from the first dojo:
+SELECT name FROM dojos LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id WHERE (SELECT dojos.id FROM dojos ORDER BY id ASC LIMIT 1;
+
