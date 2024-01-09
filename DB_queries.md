@@ -12,3 +12,6 @@ INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Jesse","Pinkma
 
 5- Create 3 ninjas that belong to the second dojo:
 INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Brahim","Sankaji", 31, 5), ("Zaky","Techa", 35, 5), ("Didine","Pangla", 38, 5);
+
+6- Create 3 ninjas that belong to the last dojo:
+INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Maza","Mohammed", 45, 6), ("Rassim","Techa", 35, 6), ("Mike","Leed", 33, 6);
