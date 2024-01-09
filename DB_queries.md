@@ -10,3 +10,5 @@ INSERT INTO dojos (name) VALUES ("Chicago"),("NYC"),("Seattle");
 4- Create 3 ninjas that belong to the first dojo:
 INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Jesse","Pinkman", 28, 4), ("Jin","Sakai", 26, 4), ("Vitorio","Scaletta", 30, 4);
 
+5- Create 3 ninjas that belong to the second dojo:
+INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES ("Brahim","Sankaji", 31, 5), ("Zaky","Techa", 35, 5), ("Didine","Pangla", 38, 5);
