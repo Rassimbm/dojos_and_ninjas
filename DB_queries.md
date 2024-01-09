@@ -22,3 +22,5 @@ SELECT name FROM dojos LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id WHERE (SELE
 8- Retrieve all the ninjas from the last dojo:
 SELECT * FROM dojos LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
 
+9- Retrieve the last ninja's dojo:
+SELECT * FROM dojos WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);
