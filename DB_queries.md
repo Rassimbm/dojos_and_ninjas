@@ -28,3 +28,6 @@ SELECT * FROM dojos WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_i
 10- Use a JOIN to retrieve the ninja with id 6 as well as the data from its dojo. Be sure to do this in one query using a join statement:
 SELECT * FROM ninjas JOIN dojos ON ninjas.dojo_id = dojos.id WHERE ninjas.id = 6;
 
+11- se a JOIN to retrieve all the ninjas as well as that ninja's dojo, note, you will see repeated data on dojos as a dojo can have many ninjas:
+SELECT * FROM ninjas JOIN dojos ON ninjas.dojo_id = dojos.id;
+
